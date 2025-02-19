@@ -1,4 +1,6 @@
-﻿void EnterArray()
+﻿using System;
+
+void EnterArray()
 {
     Console.Write("Введите количество строк, которые хотите ввести: ");
     int n = Convert.ToInt32(Console.ReadLine()); // Считываем строку, переводим в число
@@ -54,7 +56,7 @@ void PrintArray(string[] s)
     Console.Write("]");
 }
 
-EnterArray(arr);
+EnterArray();
 
-string[] resArray = Select3OrLess(arr, 10);
+string[] resArray = Select3OrLess(EnterArray, 10);
 PrintArray(resArray);
