@@ -54,7 +54,7 @@ void PrintArray(string[] s)
     Console.Write("]");
 }
 
-EnterArray();
+EnterArray(arr);
 
 string[] resArray = Select3OrLess(arr, 10);
 PrintArray(resArray);
