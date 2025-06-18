@@ -1,0 +1,15 @@
+C:\mainblock_final\obj\Debug\net8.0\mainblock_final.GeneratedMSBuildEditorConfig.editorconfig
+C:\mainblock_final\obj\Debug\net8.0\mainblock_final.AssemblyInfoInputs.cache
+C:\mainblock_final\obj\Debug\net8.0\mainblock_final.AssemblyInfo.cs
+C:\mainblock_final\obj\Debug\net8.0\mainblock_final.csproj.CoreCompileInputs.cache
+C:\mainblock_final\obj\Debug\net8.0\mainblock_final.sourcelink.json
+C:\mainblock_final\bin\Debug\net8.0\mainblock_final.exe
+C:\mainblock_final\bin\Debug\net8.0\mainblock_final.deps.json
+C:\mainblock_final\bin\Debug\net8.0\mainblock_final.runtimeconfig.json
+C:\mainblock_final\bin\Debug\net8.0\mainblock_final.dll
+C:\mainblock_final\bin\Debug\net8.0\mainblock_final.pdb
+C:\mainblock_final\obj\Debug\net8.0\mainblock_final.dll
+C:\mainblock_final\obj\Debug\net8.0\refint\mainblock_final.dll
+C:\mainblock_final\obj\Debug\net8.0\mainblock_final.pdb
+C:\mainblock_final\obj\Debug\net8.0\mainblock_final.genruntimeconfig.cache
+C:\mainblock_final\obj\Debug\net8.0\ref\mainblock_final.dll
