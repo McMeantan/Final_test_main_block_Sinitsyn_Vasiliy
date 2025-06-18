@@ -1,42 +1,24 @@
-﻿
-string[] Select3OrLess(string[] s, int size)
+﻿Console.WriteLine("Введите строки через пробел:");
+
+string input = Console.ReadLine();
+
+string[] inputArray = input.Split(' ');
+
+List<string> resultList = new List<string>();
+
+foreach (string str in inputArray)
 {
-   string[] array = new string[size];
-
-    for (int i = 0; i < size; i++)
+    if (str.Length <= 3)
     {
-        for (int j = 0; j < s.Length; j++)
-        {
-            if (array[i].Length <= 3)
-            {
-                s[j] = array[i];
-            }
-        } 
+        resultList.Add(str);
     }
-
-    return s;
 }
 
-void PrintArray(string[] s)
-{
-    Console.Write("[");
+string[] resultArray = resultList.ToArray();
 
-    for (int i = 0; i < s.Length; i++)
-    {
-        if (i < s.Length - 1)
+Console.WriteLine("Строки длиной <= 3:");
+
+        foreach (string str in resultArray)
         {
-            Console.Write($"{s[i]}, ");
+            Console.WriteLine(str);
         }
-        else
-        {
-            Console.Write($"{s[i]}");
-        }
-    }
-
-    Console.Write("]");
-}
-
-EnterArray(arr);
-
-string[] resArray = Select3OrLess(arr, 10);
-PrintArray(resArray);
