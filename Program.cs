@@ -18,7 +18,7 @@ string[] resultArray = resultList.ToArray();
 
 Console.WriteLine("Строки длиной <= 3:");
 
-        foreach (string str in resultArray)
-        {
-            Console.WriteLine(str);
-        }
+foreach (string str in resultArray)
+{
+    Console.WriteLine(str);
+}
